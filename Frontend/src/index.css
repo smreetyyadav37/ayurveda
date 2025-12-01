@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Amiamie";
+  src: url("/fonts/otf/Amiamie-Regular.otf") format("opentype"),
+    url("/fonts/ttf/Amiamie-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary: #F5F1E6; 
+  --color-dark: #3A3A3A; 
+  --color-accent1: #6B8E23; 
+  --color-accent2: #8B4513; 
+  --color-accent3: #556B2F; 
+  --color-highlight: #D4A017; 
+  --font-amiamie: "Amiamie", sans-serif;
+  --font-amiamie-round: "Amiamie-Round", sans-serif;
+
+  --animate-marquee: marquee 40s infinite linear;
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+}
+
+body {
+  background: var(--color-primary);
+  color: var(--color-dark);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: var(--font-amiamie);
+}
+
+@utility section-heading {
+  @apply text-5xl md:text-6xl font-normal text-accent1 border-b-2 border-accent1/30 pb-4 mb-8;
+}
+
+@utility sub-heading {
+  @apply text-xl md:text-2xl font-light text-dark/70 tracking-wider mb-8;
+}
+
+@utility banner-text-responsive {
+  @apply text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-tight;
+}
+
+@utility value-text-responsive {
+  @apply text-lg md:text-xl lg:text-2xl;
+}
+
+@utility marquee-text-responsive {
+  @apply text-xl sm:text-2xl lg:text-3xl;
+}
+
+@utility contact-text-responsive {
+  @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl;
+}
+
