@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import AnimatedHeaderSection from '../components/AnimatedHeaderSection'; 
 
-const API_BASE_URL = 'http://localhost:5000/api/products';
+const API_BASE_URL = 'https://samoha-api.onrender.com';
 
 const ProductsPage = () => {
     const [products, setProducts] = useState([]);
