@@ -4,7 +4,7 @@ import { socials } from '../constants';
 import { Icon } from '@iconify/react';
 import AnimatedHeaderSection from '../components/AnimatedHeaderSection'; 
 
-const API_CONTACT_URL = 'https://samoha-api.onrender.com'; 
+const API_CONTACT_URL = 'https://samoha-api.onrender.com/api/contact'; 
 
 const ContactPage = () => {
     const location = useLocation();

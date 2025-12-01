@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 
-const API_BASE_URL = 'https://samoha-api.onrender.com';
+const API_BASE_URL = 'https://samoha-api.onrender.com/api/products';
 
 const ProductDetail = () => {
     const { id } = useParams();

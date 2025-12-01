@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import AnimatedHeaderSection from '../components/AnimatedHeaderSection';
 import Marquee from '../components/Marquee';
 
-const API_BASE_URL = 'https://samoha-api.onrender.com';
+const API_BASE_URL = 'https://samoha-api.onrender.com/api/products';
 
 const HomePage = () => {
     const [featuredProducts, setFeaturedProducts] = useState([]);
