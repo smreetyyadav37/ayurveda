@@ -15,7 +15,9 @@ mongoose.connect(process.env.MONGODB_URI)
     .catch(err => console.error('MongoDB connection error:', err));
 
 const productRoutes = require('./routes/productRoutes');
+const contactRoutes = require('./routes/contactRoutes');
 app.use('/api/products', productRoutes);
+app.use('/api/contact', contactRoutes);
 
 app.get('/', (req, res) => res.send('Samoha API Running!'));
 

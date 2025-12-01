@@ -1,7 +1,7 @@
 [
   {
     "name": "ZEPNUM Injection",
-    "price": 0.00,
+    "price": 928.13,
     "imageUrl": "https://res.cloudinary.com/dsop6h5y7/image/upload/v1763891389/Zepnum_oax4ja.png",
     "description": "Meropenem Injection IP (1gm). Used for I.V. use only.",
     "unit": "1 gm.",
@@ -9,7 +9,7 @@
   },
   {
     "name": "ZEPNUM-S Injection",
-    "price": 0.00,
+    "price": 3656.25,
     "imageUrl": "https://res.cloudinary.com/dsop6h5y7/image/upload/v1763891386/Zepnum-S_ojymno.png",
     "description": "Meropenem & Sulbactam Sodium (1.5 gm) for Injection. Used for I.V. use only.",
     "unit": "1.5 gm",
@@ -17,7 +17,7 @@
   },
   {
     "name": "ZOXILIN™ Injection",
-    "price": 0.00,
+    "price": 525.00,
     "imageUrl": "https://res.cloudinary.com/dsop6h5y7/image/upload/v1763891387/Zoxilin_ykvimw.png",
     "description": "Doxycycline (100 mg, per vial) for Injection. Lyophilized powder for I.V. use only.",
     "unit": "100 mg/vial",
@@ -25,7 +25,7 @@
   },
   {
     "name": "ZONPRA™ Injection",
-    "price": 0.00,
+    "price": 51.56,
     "imageUrl": "https://res.cloudinary.com/dsop6h5y7/image/upload/v1763891384/Zonpra_p0szpv.png",
     "description": "Pantoprazole (40 mg) for Injection. Lyophilized powder for I.V. use only.",
     "unit": "40 mg",
@@ -33,7 +33,7 @@
   },
   {
     "name": "ZEFOZON™ Injection",
-    "price": 0.00,
+    "price": 356.25,
     "imageUrl": "https://res.cloudinary.com/dsop6h5y7/image/upload/v1763891385/Zefozon_pawcxk.png",
     "description": "Cefoperazone Injection IP (1000 mg). Used for IV/IM use.",
     "unit": "1000 mg",
@@ -41,7 +41,7 @@
   },
   {
     "name": "ZEFOZON-S™ Injection",
-    "price": 0.00,
+    "price": 637.50,
     "imageUrl": "https://res.cloudinary.com/dsop6h5y7/image/upload/v1763891381/Zefozon-S_qvl66n.png",
     "description": "Cefoperazone & Sulbactam Sodium (1500 mg) for Injection. Used for IV/IM use only.",
     "unit": "1500 mg",
