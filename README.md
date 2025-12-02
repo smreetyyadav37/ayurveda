@@ -8,8 +8,10 @@ A full-stack, responsive, multi-page platform built for Samoha Life Science Pvt 
 
 <br/>
 
-## LIVE AT
-[![Netlify Deploy](https://img.shields.io/badge/Frontend-Vercel-black?style=for-the-badge&logo=netlify)](https://mysamoha.com)
+## 🚀 Live At
+
+[![Netlify Deploy](https://img.shields.io/badge/Frontend-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://mysamoha.com)
+
 
 ## 📽️ Full Video Walkthrough
 
